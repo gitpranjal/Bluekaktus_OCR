@@ -453,7 +453,7 @@ Tabula.DataView = Backbone.View.extend({  // one per query object.
   },
 
   render: function(e){
-    document.title="Export Data | Tabula";
+    document.title="Export Data";
     var uniq_extraction_methods = _.uniq(_(this.model.get('list_of_coords')).pluck('extraction_method'));
 
     // save the current scroll position (if unset), then scroll to the top
@@ -1390,7 +1390,7 @@ Tabula.PDFView = Backbone.View.extend(
     },
 
     render : function(){
-      document.title="Select Tables | Tabula";
+      document.title="Select Tables";
       this.components['document_view'].render();
 
       $('#control-panel').append(this.components['control_panel'].render().el);

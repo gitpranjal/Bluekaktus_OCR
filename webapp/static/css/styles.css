@@ -7301,10 +7301,10 @@ body {
 }
 
 .navbar-default a.navbar-brand {
-  padding-left: 30px;
+  padding-left: 60px;
   position: relative;
   font-weight: bold;
-  color: black;
+  color: indigo;
 }
 .navbar-default a.navbar-brand::before {
   position: absolute;
@@ -7312,8 +7312,8 @@ body {
   display: block;
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
-  background-size: 25px 30px;
-  width: 25px;
+  background-size: 50px 30px;
+  width: 50px;
   height: 30px;
   left: 0;
   top: 10px;
